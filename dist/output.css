@@ -493,6 +493,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: -50px;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -509,8 +533,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 50px;
 }
 
+.h-\[202px\] {
+  height: 202px;
+}
+
 .min-h-full {
   min-height: 100%;
+}
+
+.w-\[343px\] {
+  width: 343px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .min-w-\[343px\] {
@@ -537,6 +573,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[320px\] {
   max-width: 320px;
+}
+
+.max-w-\[990px\] {
+  max-width: 990px;
 }
 
 .transform {
@@ -585,6 +625,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(30 58 138 / var(--tw-border-opacity));
 }
 
+.border-neutral-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-border-opacity));
+}
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -624,8 +669,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.875rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.font-\[\'Hand_Of_Sean\'\] {
+  font-family: 'Hand Of Sean';
 }
 
 .font-semibold {
@@ -663,6 +716,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .placeholder-blue-900::placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(30 58 138 / var(--tw-placeholder-opacity));
+}
+
+.drop-shadow-\[0_20px_60px_rgba\(106\2c 51\2c 140\2c 0\.15\)\] {
+  --tw-drop-shadow: drop-shadow(0 20px 60px rgba(106,51,140,0.15));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .filter {
