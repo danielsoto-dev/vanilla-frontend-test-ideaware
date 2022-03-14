@@ -18,11 +18,10 @@ To see the web page, use the Live Server Extension on VS Code.
 
 ```text
 ideaware-test
-├── dist
-|   └── output.css 
 ├── src
 │   ├── index.html
 │   └── input.css
+│   └── output.css 
 ├── assets
 │   └── images
 ├── fonts
