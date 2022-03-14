@@ -5,7 +5,7 @@
 @font-face {
   font-family: "Hand Of Sean";
   src: local("Hand Of Sean"),
-    url("../../fonts/HandOfSean/Hand_Of_Sean_Demo.ttf") format("truetype");
+    url("/fonts/HandOfSean/Hand_Of_Sean_Demo.ttf") format("truetype");
   font-weight: bold;
 }
 :root {

@@ -949,12 +949,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(0 230 155 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/assets\/waitlist\.png\'\)\] {
-  background-image: url('../assets/waitlist.png');
+.bg-\[url\(\'\.\/public\/assets\/waitlist\.png\'\)\] {
+  background-image: url('./public/assets/waitlist.png');
 }
 
-.bg-\[url\(\'\.\.\/public\/assets\/waitlist\.png\'\)\] {
-  background-image: url('../public/assets/waitlist.png');
+.bg-\[url\(\'\.\/assets\/waitlist\.png\'\)\] {
+  background-image: url('./assets/waitlist.png');
 }
 
 .bg-cover {
@@ -1128,7 +1128,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: "Hand Of Sean";
 
   src: local("Hand Of Sean"),
-    url("../../fonts/HandOfSean/Hand_Of_Sean_Demo.ttf") format("truetype");
+    url("/fonts/HandOfSean/Hand_Of_Sean_Demo.ttf") format("truetype");
 
   font-weight: bold;
 }
@@ -1285,12 +1285,8 @@ body {
     border-radius: 1.5rem;
   }
 
-  .md\:bg-\[url\(\'\.\.\/assets\/Desktop_waitinglist\.png\'\)\] {
-    background-image: url('../assets/Desktop_waitinglist.png');
-  }
-
-  .md\:bg-\[url\(\'\.\.\/public\/assets\/Desktop_waitinglist\.png\'\)\] {
-    background-image: url('../public/assets/Desktop_waitinglist.png');
+  .md\:bg-\[url\(\'\.\/assets\/Desktop_waitinglist\.png\'\)\] {
+    background-image: url('./assets/Desktop_waitinglist.png');
   }
 
   .md\:p-0 {
