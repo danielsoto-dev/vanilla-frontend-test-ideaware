@@ -811,6 +811,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 250px;
 }
 
+.max-w-\[350px\] {
+  max-width: 350px;
+}
+
+.max-w-\[370px\] {
+  max-width: 370px;
+}
+
 .basis-1\/2 {
   flex-basis: 50%;
 }
