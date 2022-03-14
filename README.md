@@ -18,14 +18,13 @@ To see the web page, use the Live Server Extension on VS Code. or visiting: http
 
 ```text
 ideaware-test
-├── src
+├── public
 │   ├── index.html
-│   └── input.css
-│   └── output.css 
-├── assets
-│   └── images
-├── fonts
-│   └── fonts
+│   ├── input.css
+│   ├── output.css 
+│   ├── assets
+│   │   └── images
+│   ├── fonts
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
