@@ -905,6 +905,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   overflow: hidden;
 }
 
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -947,10 +951,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#00e69b\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 230 155 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\.\/public\/assets\/waitlist\.png\'\)\] {
-  background-image: url('./public/assets/waitlist.png');
 }
 
 .bg-\[url\(\'\.\/assets\/waitlist\.png\'\)\] {
