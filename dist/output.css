@@ -609,6 +609,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.75rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .inline {
   display: inline;
 }
@@ -667,6 +671,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.25rem;
 }
 
+.w-\[50px\] {
+  width: 50px;
+}
+
 .min-w-\[343px\] {
   min-width: 343px;
 }
@@ -707,6 +715,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[140px\] {
   max-width: 140px;
+}
+
+.max-w-\[660px\] {
+  max-width: 660px;
 }
 
 .basis-1\/2 {
@@ -762,6 +774,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-items: center;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .justify-self-start {
   justify-self: start;
 }
@@ -776,6 +792,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border-2 {
@@ -845,6 +865,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -862,6 +887,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-\[22px\] {
+  font-size: 22px;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -872,6 +901,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-bold {
   font-weight: 700;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .text-\[\#00e69b\] {
@@ -995,6 +1028,10 @@ code {
     justify-content: space-between;
   }
 
+  .md\:p-0 {
+    padding: 0px;
+  }
+
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1003,6 +1040,18 @@ code {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-\[28px\] {
+    font-size: 28px;
+  }
+
+  .md\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .md\:leading-10 {
+    line-height: 2.5rem;
   }
 }
 
