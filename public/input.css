@@ -8,18 +8,7 @@
     url("/fonts/HandOfSean/Hand_Of_Sean_Demo.ttf") format("truetype");
   font-weight: bold;
 }
-@font-face {
-  font-family: "Konnect";
-  src: local("Konnect"),
-    url("/fonts/Konect/KonnectRegular.otf") format("opentype");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Konnect";
-  src: local("Konnect"),
-    url("/fonts/Konect/KonnectSemiBold.otf") format("opentype");
-  font-weight: bold;
-}
+
 :root {
   --font-color: #00004f;
 }
