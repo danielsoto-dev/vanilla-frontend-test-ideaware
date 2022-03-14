@@ -12,20 +12,19 @@ $ git clone git@github.com:danielsoto-dev/vanilla-frontend-test-ideaware.git
 $ cd vanilla-frontend-test-ideaware
 $ npm i
 
-To see the web page, use the Live Server Extension on VS Code.
+To see the web page, use the Live Server Extension on VS Code. or visiting: https://quizzical-raman-14cbca.netlify.app/
 
 ## Scaffolding
 
 ```text
 ideaware-test
-├── src
+├── public
 │   ├── index.html
-│   └── input.css
-│   └── output.css 
-├── assets
-│   └── images
-├── fonts
-│   └── fonts
+│   ├── input.css
+│   ├── output.css 
+│   ├── assets
+│   │   └── images
+│   ├── fonts
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
