@@ -860,3 +860,10 @@ code {
     line-height: 2.25rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
