@@ -727,12 +727,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   min-height: 80px;
 }
 
-.w-\[343px\] {
-  width: 343px;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-\[343px\] {
+  width: 343px;
 }
 
 .w-fit {
@@ -809,14 +809,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[250px\] {
   max-width: 250px;
-}
-
-.max-w-\[350px\] {
-  max-width: 350px;
-}
-
-.max-w-\[370px\] {
-  max-width: 370px;
 }
 
 .basis-1\/2 {
@@ -911,6 +903,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .overflow-y-hidden {
@@ -1033,6 +1029,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
+.font-\[\'Konnect\'\] {
+  font-family: 'Konnect';
+}
+
 .font-\[\'Hand_Of_Sean\'\] {
   font-family: 'Hand Of Sean';
 }
@@ -1137,6 +1137,24 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   src: local("Hand Of Sean"),
     url("/fonts/HandOfSean/Hand_Of_Sean_Demo.ttf") format("truetype");
+
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Konnect";
+
+  src: local("Konnect"),
+    url("/fonts/Konect/KonnectRegular.otf") format("opentype");
+
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Konnect";
+
+  src: local("Konnect"),
+    url("/fonts/Konect/KonnectSemiBold.otf") format("opentype");
 
   font-weight: bold;
 }
